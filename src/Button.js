@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 const syllables = [
   ["BA", "BE", "BI", "BO", "BU", "DA", "DE", "DI", "DO", "DU", "FA", "FE", "FI", "FO", "FU", "GA", "GE", "GI", "GO", "GU", "HA", "HE", "HI", "HO", "HU", "JA", "JE", "JI", "JO", "JU"],
   ["KA", "KE", "KI", "KO", "KU", "LA", "LE", "LI", "LO", "LU", "MA", "ME", "MI", "MO", "MU", "NA", "NE", "NI", "NO", "NU", "PA", "PE", "PI", "PO", "PU", "RA", "RE", "RI", "RO", "RU"],
-  ["SA", "SE", "SI", "SO", "SU", "TA", "TE", "TI", "TO", "TU", "VA", "VE", "VI", "VO", "VU", "WA", "WE", "WI", "WO", "WU", "ZA", "ZE", "ZI", "ZO", "ZU", "PI", "MA", "PA", "PO", "LA"]
+  ["SA", "SE", "SI", "SO", "SU", "TA", "TE", "TI", "TO", "TU", "VA", "VE", "VI", "VO", "VU", "WA", "WE", "WI", "WO", "WU", "ZA", "ZE", "ZI", "ZO", "ZU", "PI", "MA", "PA", "PO", "LA"],  
+  ["A a", "E e", "I i", "O o", "U u", "Ä ä", "Ö ö", "Ü ü", "ie", "Ei ei", "ai", "Au au", "Eu eu", "Äu äu", "oi", "ui", "St st", "Sp sp", "Pf pf", "Ch ch", "chen", "Qu qu", "Sch sch", "Ah ah", "Eh eh", "Ih ih", "Oh oh", "Uh uh"]
   ];
 
 function SyllableButton({ index, onSpeak }) {
